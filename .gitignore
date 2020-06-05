@@ -3,10 +3,12 @@
 
 # Compiled Object files
 ctab/.vs
+ctab/x64
 ctab/Debug
 ctab/Release
 ctab/ipch
 utilib/.vs
+utilib/x64
 utilib/Debug
 utilib/Release
 utilib/ipch
@@ -14,6 +16,7 @@ utilib/ipch
 *.lo
 *.o
 *.obj
+*.user
 *.opendb
 *.db
 
