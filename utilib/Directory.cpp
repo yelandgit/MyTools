@@ -14,7 +14,7 @@ bool ComparePath(const wstring& path, const wstring& patt, size_t i, size_t j)
 		{
 			if (patt[j+1]==0) return true;
 			while (i<path.length())
-				if (ComparePath(path,patt,i++,j+1)==0) return true;
+				if (ComparePath(path,patt,i++,j+1)) return true;
 			return false;
 		}
 		if (path[i++]!=patt[j++]) return false;
