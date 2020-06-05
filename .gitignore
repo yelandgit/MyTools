@@ -2,10 +2,20 @@
 *.d
 
 # Compiled Object files
+ctab/.vs
+ctab/Debug
+ctab/Release
+ctab/ipch
+utilib/.vs
+utilib/Debug
+utilib/Release
+utilib/ipch
 *.slo
 *.lo
 *.o
 *.obj
+*.opendb
+*.db
 
 # Precompiled Headers
 *.gch
